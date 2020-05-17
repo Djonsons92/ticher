@@ -1,0 +1,157 @@
+body {
+	font-family: 'Open Sans', sans-serif;
+	font-style: 18px;
+	margin: 0px;
+	padding: 0px;
+	
+}
+
+div, p, input, form, span, a, ul, li, {
+	box-sizing: border-box;
+}
+
+h1, h2, h3, h4, h5, h6, {
+	margin: 0px;
+	font-family: 'Montserrat', sans-serif;
+	font-weight: 900;
+}
+
+p {
+	line-height: 1.6em;
+}
+
+.container {
+	width: 1170px;
+	margin: 0 auto;
+
+}
+.form-wrapper {
+	display: flex;
+	align-items: center;
+	flex-direction: column;
+}
+
+.header {
+	background: rgba(77,189,254,1);
+    background: -moz-linear-gradient(-45deg, rgba(77,189,254,1) 0%, rgba(55,144,217,1) 100%);
+    background: -webkit-gradient(left top, right bottom, color-stop(0%, rgba(77,189,254,1)), color-stop(100%, rgba(55,144,217,1)));
+    background: -webkit-linear-gradient(-45deg, rgba(77,189,254,1) 0%, rgba(55,144,217,1) 100%);
+    background: -o-linear-gradient(-45deg, rgba(77,189,254,1) 0%, rgba(55,144,217,1) 100%);
+    background: -ms-linear-gradient(-45deg, rgba(77,189,254,1) 0%, rgba(55,144,217,1) 100%);
+    background: linear-gradient(135deg, rgba(77,189,254,1) 0%, rgba(55,144,217,1) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#4dbdfe', endColorstr='#3790d9',GradientType=1 );
+	padding: 62px;
+	color: #fff;
+	padding-bottom: 144px;
+}	
+
+.wrapper {
+	display: flex;
+	justify-content: space-between;
+}
+
+
+.offer {
+	margin-top: 89px;
+	width: 605px;
+	
+}
+
+.title {
+	font-style: 36px;
+}
+
+.btn {
+	background: #ffd429;
+	color: #2e2a1b;
+	border-radius: 0px;
+	display: block;
+	width: 200px;
+	padding: 20px 0;
+	text-align: center;
+	transition: all 0.5s ease;	
+	font-weight: bold;
+	text-decoration: none;
+}
+
+.btn:hover {
+	background: #ebc118;
+
+}
+.intro {
+	margin-bottom: 37px;
+	margin-top: 30px;
+	width: 404px;
+}
+.learn {
+	margin-top: 102px;
+	margin-bottom: 122px;
+}
+.mail {
+	background: #ecf3f8;
+	padding-top: 100px;
+	padding-bottom: 104px;
+}
+.section-title {
+	font-size: 30px;
+	text-align: center;
+}
+.skills {
+	display: flex;
+	justify-content: space-between;
+	margin-top: 70px;
+}
+.skill {
+	width: 300px;
+	background: url('../img/icon22.png') no-repeat top;
+	padding-top: 79px;
+}
+.skill-title {
+	font-style: 18px;
+	text-align: center;
+	
+}
+.skill-text {
+	margin-top: 0px;
+	text-align: center;
+	margin-top: 18px;
+}
+.skill-free {
+	width: 265px;
+	background: url('../img/icon33.png') no-repeat top;	
+}
+.skill-smile {
+	background: url('../img/icon44.png') no-repeat top;
+}
+.form {
+	margin-top: 10px;
+}
+.input {
+	width: 340px;
+	border: 1 solid #bbb;
+	font-size: : 15px;
+	font-family: 'Open Sans', sans-serif;
+	border-radius: 0px;
+	height: 50px;
+	padding-left: 25px;
+	/*margin-left: 414px;*/
+	display: block;
+	margin-bottom: 20px;
+	
+}
+.btn-form {
+	width: 371px;
+	border: 0;
+	cursor: pointer;
+	/*margin-left: 414px;	*/
+	font-weight: 900;
+}
+.footer {
+	background: #164d7a;
+	text-align: center;
+	padding: 15px 0px;
+}
+.credits {
+	color: #fff;
+	font-size: 14px;
+}
